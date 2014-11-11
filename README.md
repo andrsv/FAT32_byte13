@@ -1,3 +1,5 @@
+A one night project to prove that byte 13 (the 14th byte) of a file record in a FAT32 directory is: Creation - Millisecond stamp (actual 100th of a second), and has a limited range of 0-199
+
 Result:
 
 ............................
@@ -178,3 +180,5 @@ value: 196, count: 18
 value: 197, count: 19
 value: 198, count: 3
 value: 199, count: 15
+
+Conclusion: When limiting the use of the FAT32 disk to Windows, I believe my hypothesus was correct :)
